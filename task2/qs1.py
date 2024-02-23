@@ -33,7 +33,7 @@ class Cypher:
         return self.convert_string(self.input_string)
 
 
-input_string = "Hello 123 World!"
+input_string = input("enter the string:")
 cypher = Cypher(input_string)
 print("Original String:", input_string)
 print("Cypher String:", cypher.invoke_conversion())

@@ -9,7 +9,8 @@ from abc import ABC, abstractmethod
 class Shape(ABC):
     @abstractmethod
     def area(self):
-        pass
+        raise NotImplementedError("Subclasses must implement the area() method.")
+       
 
 class Triangle(Shape):
     def __init__(self, base, height):
