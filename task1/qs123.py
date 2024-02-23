@@ -1,7 +1,11 @@
-# 3) Add 4 different subclasses for class Shape. - Triangle, Square, Pentagon, Circle. Define constructor for each 
-# of them to assign the necessary parameters required for calculating the area. 
-# Define the area method for each of the classes. When invoked it Should return the area of the shape by 
-# calculating it. 
+# 1) Create a class named Shape. Add an instance method called area. But don't define the method, just raise 
+# NotImplementedError() exception with a suitable message. 
+# 2) Make it an abstract base class by inheriting ABC class from the abc module. (To import: from abc import ABC) 
+# Make the area method an abstract method by decorating it with abstractmethod decorator (import this also from 
+# abc). 
+# 3) Add 4 different subclasses for class Shape. - Triangle, Square, Pentagon, Circle. 
+# Define constructor for each of them to assign the necessary parameters required for calculating the area. 
+# Define the area method for each of the classes. When invoked it Should return the area of the shape by calculating it. 
 # Create an object for each of the subclasses and call the area method on the objects. 
 
 from abc import ABC, abstractmethod
